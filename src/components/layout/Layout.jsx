@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom"
 import { Navbar } from "./Navbar"
 import { Footer } from "./Footer"
-import { useNavbarVisibility } from "../../context/useNavbarVisibility"
+import { useNavbarVisibility } from "../../context/NavbarVisibilityContextCore"
 import { ChatWidget } from "./ChatWidget"
 
 export const Layout = () => {
@@ -13,7 +13,7 @@ export const Layout = () => {
             <Outlet />
         </main>
         <Footer />
-        <ChatWidget />
+        {visible && <ChatWidget />}
         </>
     )
 }

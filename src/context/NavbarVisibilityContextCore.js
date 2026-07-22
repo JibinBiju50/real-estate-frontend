@@ -1,3 +1,4 @@
-import { createContext } from "react";
+import { createContext, useContext } from "react";
 
 export const NavbarVisibilityContext = createContext(null);
+export const useNavbarVisibility = () => useContext(NavbarVisibilityContext);

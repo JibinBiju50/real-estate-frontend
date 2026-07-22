@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
 import featuredBanner1 from "../assets/images/Featured_img1.jpg";
-import { useNavbarVisibility } from "../context/useNavbarVisibility";
+import { useNavbarVisibility } from "../context/NavbarVisibilityContextCore.js";
 import AVAImage1 from "../assets/images/AVA_img1.jpg";
 import AVAImage2 from "../assets/images/AVA_img2.jpg";
 import AVAImage3 from "../assets/images/AVA_img3.jpg";

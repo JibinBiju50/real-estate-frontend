@@ -45,11 +45,11 @@ const MasterpieceSection = () => {
   <img src={masterpiece_img_2} alt="masterpiece_image_2" className="object-cover w-full h-full"/>
   <h3
     className={`
-      absolute top-10 left-1/2 -translate-x-1/2
-      max-w-xs sm:max-w-sm md:max-w-xl font-heading
+      absolute top-1/3 left-1/3 -translate-x-1/2
+      max-w-xs md:max-w-xl font-heading
       text-base sm:text-lg md:text-[clamp(0.8rem,6vw,2.5rem)] uppercase leading-[1.18] md:leading-[1.08]
       ${inView2 ? "fade-in" : "fade-init"}
-      text-white drop-shadow-lg text-center break-words
+      text-white drop-shadow-lg text-center 
     `}
     style={{ pointerEvents: "none" }}
   >

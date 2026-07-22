@@ -151,6 +151,8 @@ export const Navbar = () => {
         <h1 className="font-heading text-3xl tracking-[0.2em] text-gold">
           ESTO
         </h1>
+        
+        <a href="/test">Test</a>
 
         <div className="flex min-w-24 justify-end">
           <button
